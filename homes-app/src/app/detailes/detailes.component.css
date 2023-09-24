@@ -46,6 +46,19 @@
     margin-bottom: 15px;
   }
   
+  .btn-row {
+    display: table-cell;
+    max-width: 600px;
+  }
+  
+  .btn-row .mat-mdc-button-base {
+    margin: 8px 8px 8px 0;
+  }
+
+  #download {
+    display: none;
+  }
+
   label, input {
     display: block;
   }
